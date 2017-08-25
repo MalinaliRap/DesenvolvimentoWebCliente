@@ -3,12 +3,16 @@
 <html>
     <head>
           <meta charset="UTF-8">
-        <title>Portal do Aluno</title>
+        <title>Forms</title>
     </head>
     <body>
-        <p><Strong>Alunos Matriculados</Strong></p>
-        <a href="./listawebcliente.html" target="_blank"><p>Web Cliente</p></a>
-        <a href="http://www.Google.com" target="_blank"><p>Web Servidor</p></a>
-        <a href="http://www.Google.com" target="_blank"><p>Dispositivos Móveis</p></a>      
+
+	<form oninput="saida.value=parseInt(n1.value)+parseInt(n2.value)" method="post" action="" enctype="enctype=multipart/form-data">
+	<form method="post" action="" enctype="application/x-www-form=urlenconded">
+	<!--- possibilita upload https://www.w3schools.com/tags/att_form_enctype.asp --->	
+	<input type="number" id="n1">+
+	<input type="number" name="n2">=
+	<output name="saida" for="n1 n2"></output>
+	</form>  
     </body>
 </html>
