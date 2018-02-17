@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="UTF-8">
+        <title>Desafio</title>
+    </head>
+    <body>
+	<style>
+
+	.gallery{
+		position: relative;
+	}
+	
+	.gallery:hover .imagem{
+	background-size: 200% auto;
+  
+	}
+	
+	
+	.imagem{
+		position: absolute;
+		width: 100%;
+		height: 500px;
+		background-image: url("imagens/imagem.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		transition: 2s;
+		background-position: center;
+		
+	}
+	
+
+	.color{
+		position: absolute;
+		text-align: center;
+		background-color: rgba(20, 53, 255,1);
+		width:100%;
+		height:500px;
+		text-align: center;
+		color: white;
+		transition: background-color 1000ms linear;
+	}
+	
+	.color:hover{
+	 background-color: rgba(20, 53, 255, 0.5);
+  
+	}
+	
+
+	
+
+	</style>
+	<div class="gallery">
+	<div class="imagem"></div>
+	<div class="color"></div>
+	</div>  
+		
+
+    </body>
+</html>
